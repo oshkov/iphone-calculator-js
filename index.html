@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <title>Калькулятор</title>
+</head>
+<body>
+
+    <div class="calculator">
+
+        <input type="text" class="screen" id="screen">
+
+        <button class="symbol gray" onclick='wipe()'>AC
+        <button class="symbol gray" onclick=''>.
+        <button class="symbol gray" onclick='show("%")'>%
+        <button class="symbol orange" onclick='show("/")'>/
+
+        <button class="symbol" onclick="show('7')">7
+        <button class="symbol" onclick='show("8")'>8
+        <button class="symbol" onclick='show("9")'>9
+        <button class="symbol orange" onclick='show("*")'>*
+
+        <button class="symbol" onclick='show("4")'>4
+        <button class="symbol" onclick='show("5")'>5
+        <button class="symbol" onclick='show("6")'>6
+        <button class="symbol orange" onclick='show("-")'>-
+
+        <button class="symbol" onclick='show("1")'>1
+        <button class="symbol" onclick='show("2")'>2
+        <button class="symbol" onclick='show("3")'>3
+        <button class="symbol orange" onclick='show("+")'>+
+
+        <button class="symbol zero" onclick='show("0")'>0
+        <button class="symbol" onclick='show(".")'>.
+        <button class="symbol orange" onclick='calc()'>=
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
